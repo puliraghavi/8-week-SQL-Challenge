@@ -1,9 +1,10 @@
 # 🍜 Case Study #1: Danny's Diner 
+
 ![1](https://github.com/puliraghavi/8-week-SQL-Challenge/assets/119037510/b98b0710-fc64-4fc7-b035-dfec6a0b557b)
 Link to the case study - https://8weeksqlchallenge.com/case-study-1/
 
 ## 📚Contents
-- [Business Task](#problem-statement)
+- [Problem Statement](#problem-statement)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Question and Solution](#question-and-solution)
 
@@ -25,8 +26,8 @@ Danny wants to use the data to answer a few simple questions about his customers
 - Menu: Maps the product_id to the actual product_name and price of each menu item.
 - Members:Tells us when a customer_id has joined the beta version of the Danny’s Diner loyalty program.
 
-
 ***
+
 ## 1. Case Study Questions and Solutions
 I have studied the case and solved the following questions using MySQL. In the solutions i used various joins, cte expressions ,window fns, etc
 
