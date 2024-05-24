@@ -21,6 +21,7 @@ For this case study there is a total of 4 datasets for this case study
 # Question and Solution
 
 ## A. High Level Sales Analysis
+
 **1. What was the total quantity sold for all products?**
 ````sql
 select p.product_name as Product,
@@ -50,6 +51,7 @@ group by 1
 ````
 
 ## B. Transaction Analysis
+
 **1. How many unique transactions were there?**
 ````sql
 select count(distinct txn_id) 
@@ -107,8 +109,9 @@ select member, txn_id, sum(price*qty) as rev
 ````
 
   ## C. Product Analysis
-````sql
+  
 **1. What are the top 3 products by total revenue before discount?**
+````sql
 select p.product_name, sum(s.price*s.qty) as rev
 from balanced_tree.product_details p
 left join balanced_tree.sales s
