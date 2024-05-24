@@ -1,4 +1,4 @@
-#🛒Case Study #5: Data Mart
+# 🛒Case Study #5: Data Mart
 
 ![5](https://github.com/puliraghavi/8-week-SQL-Challenge/assets/119037510/28edc88e-90bb-4290-bb4a-ba74d0e73367)
 
